@@ -1,0 +1,184 @@
+/* 
+    Document   : style
+    Created on : 4 mars 2012, 19:23:25
+    Author     : Brice
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+  font-family: Calibri;
+  background-image: url(images/background.jpg);
+  
+  
+}
+
+
+/***************HEADER******************/
+
+
+#titre_principal, #titre_principal h2{
+    text-align: center;
+    color:white;
+    
+}
+/***************MENU******************/
+#menu_barre {
+    background-image: url(images/table/black.jpg);
+   
+    
+}
+#menu_barre ul{
+    margin : 0;
+    padding:0;
+    margin-bottom: 5px;
+    float: left;
+    font: bold 100% Calibri;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #666;     
+}
+ 
+#menu_barre ul li{
+    display: inline;
+}
+
+#menu_barre ul li a{
+float: left;
+color: white;
+padding: 2px 12px;
+text-decoration: none;
+}
+
+#menu_barre ul li a:visited{
+color: white;
+}
+
+#menu_barre ul li a:hover{
+    color: orange;
+}
+/***************BLOC PAGE******************/
+#bloc_page{
+    margin-left: auto ;
+    margin-right: auto ;
+    width: 1000px;
+}
+#article1{
+     width: 65%;
+    float: left;
+}
+
+
+#article1, #article2 {
+    
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    box-shadow: 2px 2px 4px black;
+    padding-left: 8px;
+   
+    margin-top: 70px;
+    margin-bottom: 30px;
+     background-color: white;
+}
+#article1 h1{
+    text-align: center;
+}
+
+
+section aside{
+    float: left;
+    width: 25%;
+    margin-left: 3%;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    box-shadow: 2px 2px 4px black;
+    padding-left: 8px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+      background-color: white;
+}
+
+aside h1 {
+    text-align: center;
+}
+
+#article2{
+   clear: both;  
+}
+#formulaire select {
+    margin: 2%;
+}
+
+fieldset{
+    background-color:#e8e8f8 ;
+}
+#tableau{
+   
+    margin-top: 50px;
+    margin-bottom: 30px;
+    
+}
+
+table{
+     border-collapse: collapse;
+       background-color: white;
+}
+td, th {
+    border: 1px solid black;
+    empty-cells: show;
+    padding: 3px;
+    width:90px;
+}
+
+
+
+
+table img{
+    display: block;
+    padding: 4px;
+    width:70px;
+}
+
+#table_image{
+    text-align: center;
+}
+/***************FOOTER******************/
+
+div#pied_de_page {
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px; 
+  float: left;
+  margin-top:30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10%;
+    background-color: white;
+  
+}
+
+footer {
+    padding: 10px;
+    float: left;
+   
+    
+}
+
+
+footer ul li a{
+    
+
+color: black;
+padding: 2px 12px;
+text-decoration: none;
+}
+#img_footer1,#img_footer2, #logo, footer h1, header h1{
+       display:inline;
+}
+
+#img_footer1, #img_footer2{
+     width:25px;
+}
+
